@@ -28,9 +28,17 @@ Bits haben zwei Werte: 0 oder 1. 8 Bits ergeben 1 Byte. Mit einem Byte kann man 
 Bits können über verschiedene Übertragungsmedien zwischen Computern versendet werden. Die Anzahl der übertragenen Bits pro Sekunde wird als Bandbreite bezeichnet - z.B.: 300MBit/s -> 300 Millionen Bit können pro Sekunde über diese Leitung laufen. Übertragungsmedien können sein:
 
 1. Kupfer / Elektrizität
+
     - billig
     - weitverbreitet
     - einfach in der Verarbeitung
     - hohe Verluste über lange Distanzen (hunderte Meter)
+    
 2. Glasfaser / Licht
+
+    - schnelle Übertragung
+    - verlustfrei
+    - geeignet für Ozeankabel
+    - teuer und schwierig in der Verarbeitung
+
 3. 
