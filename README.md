@@ -45,3 +45,4 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 
     - hoher Komfort, Internet überall
     - hohe Verluste über Distanzen
+
