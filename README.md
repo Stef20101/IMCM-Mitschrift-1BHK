@@ -60,4 +60,6 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 - Pakete sind in der Regel rund 1500 Byte groß (= 1,5 KB). Das heißt ein 10MB großen Foto würde in etwa 6670 Pakete aufgeteilt werden
 (10MB = 10.000KB = 10.000.000 Byte / 1500 Byte = 667ß Pakete)
 - Pakete können unterschiedliche Routen durch das Internet nehmen. Die Routenplannung erfolgt durch spezielle Computer - sogenannten Router. Router entscheiden, welchen Weg ein Paket, durch das Internet nimmt. Die Entscheidung basiert auf verschiedenen Faktoren, wie z.B. der aktuellen Auslastung der Verbindung und der Entfernung zu Ziel.
-- jedes Paket enthält die IP-Adressen der Quelle und des Ziels sowie die Reihenfolge der Pakete
+- jedes Paket enthält die IP-Adressen der Quelle und des Ziels sowie die Reihenfolge der Pakete (damit sie  am Ziel wieder kottekt zusammengesetzt werden können)
+- am Ziel wird die Vollständigkeit der Pakete durch das *Transmission Control Protocol* (TCP) überprüft. Wenn Pakete verloren gehen, fordert TCP die erneute Übertragung an.
+- TCP und IP bilden gemeinsam die Basis für die Funktionsweise des Internets - man spricht auch vom TCP/IP-Modell
