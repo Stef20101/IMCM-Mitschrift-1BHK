@@ -80,3 +80,8 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
     > - **3xx** - Weiter- oder Umleitung
     > - **4xx** - Clientfehler (z.B. 404 - Not Found)
     > - **5xx** - Serverfehler
+
+- Daten (Webseiten, Bilder, Videos, usw.) werden mittels GET-Anfragen angefordert
+- User-Input (Texteingaben, Dateiuploads, ...) werden mittels POST-Anfragen verschlüsselt übermittelt
+- GET und POST sind sogenannten **HTTP-Methoden**. Es gibt noch weiter Methoden, die wir erst später lernen.
+- HTTP-Anfragen und Antworten können auch **Cookies** enthalten. Das sind kleine Textdateien, die aus Schlüssel-Wert-Paaren (*key-value-pairs*) bestehen. Ist ein Cookie einmal gesetzt, wird es mit jeder Anfrage mitgesendet- So lann der Webserver einzelne User wiedererkennen bzw. identifizieren.
