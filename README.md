@@ -85,3 +85,13 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 - User-Input (Texteingaben, Dateiuploads, ...) werden mittels POST-Anfragen verschlüsselt übermittelt
 - GET und POST sind sogenannten **HTTP-Methoden**. Es gibt noch weiter Methoden, die wir erst später lernen.
 - HTTP-Anfragen und Antworten können auch **Cookies** enthalten. Das sind kleine Textdateien, die aus Schlüssel-Wert-Paaren (*key-value-pairs*) bestehen. Ist ein Cookie einmal gesetzt, wird es mit jeder Anfrage mitgesendet. So kann der Webserver einzelne User wiedererkennen bzw. identifizieren.
+
+### Teil 8 - The Internet: How Search Works
+
+- Suchmaschinen-Bots (*Crawler*) durchsteifen ständig das WWW (World Wide Web) und katalogisieren Websites. Der so entstehende Katalog wird auch **Index** genannt.
+- wenn wir einen Suchbegriff bei Google (oder einer anderen *Search Engine*) eingeben, wird NICHT das WWW durchsucht, sondern lediglich der zuvor erstellte Index.
+- Suchergebnisse werden auf Basis eines (geheimen) Algorithmus geranked - Ergebnisse, die weiter oben stehen, werden öfter angeklickt
+- Einfluss auf das Ranking haben u.a.:
+    - im Text vorkommende Suchbegriffe (*Keywords*)
+    - Links, die auf meine Seite zeigen (*Backlinks*)
+    - 
