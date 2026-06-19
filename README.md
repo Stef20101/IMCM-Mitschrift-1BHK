@@ -103,10 +103,10 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 
 In TCP/IP-Modell übernimmt jede Schicht eine eigene Aufgabe (merke: *"divide and conquer"*), hat einen eigenen Namen für die versendeten Dateneinheiten und einen eigenen Adressierungsmechanismus:
 
-| Schicht | Protokoll | Dateneinheit | Adressen |
-| ... | ... | ... | ... |
-| Internet | IP | Paket | IP-Adressen |
-| Tansport | TCP | Segment | Ports |
-| Links | Ethernet | Frame | MAC-Adressen|
+| Schicht   | Protokoll     | Dateneinheit |    Adressen |
+| ...       | ...           | ...          | ...         |
+| Internet  | IP            | Paket        | IP-Adressen |
+| Tansport  | TCP           | Segment      | Ports       |
+| Links     | Ethernet      | Frame        | MAC-Adressen|
 
 Die Daten der Anwedendungsschicht werden auf der Transportschicht in ein Segment verpackt. Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendlich in der Link-Schicht in ein Frame.
