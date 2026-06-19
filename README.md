@@ -10,6 +10,10 @@ Andere bekannte Auszeichnungssprachen sind:
 
 ## Playlist zur Funktionsweise des Internets
 
+![TCP-IP-Modell]
+
+
+
 ### Teil 1 - What is the Internet?
 
 - wurde in den 1970er-Jahren erfunden
