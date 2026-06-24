@@ -10,10 +10,6 @@ Andere bekannte Auszeichnungssprachen sind:
 
 ## Playlist zur Funktionsweise des Internets
 
-![TCP-IP-Modell]
-
-
-
 ### Teil 1 - What is the Internet?
 
 - wurde in den 1970er-Jahren erfunden
@@ -100,3 +96,19 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
     - Links, die auf meine Seite zeigen (*Backlinks*)
 - die Suchergebnisse werden an die Benutzer*innen angepasst! D.h., nicht jede/r sieht die gleichen Informationen, selbst wenn sie idente Suchanfragen durchführen!
 - [Startpage](https://www.startpage.com/) ist eine datensparsame Suchmaschine, die ihren Benutzer*innen die Verwendung von Google ohne Tracking oder Personalisierung erlaubt
+
+### Ergänzung: Überblick über das TCP/IP-Modell
+
+In TCP/IP-Modell übernimmt jede Schicht eine eigene Aufgabe (merke: *"divide and conquer"*), hat einen eigenen Namen für die versendeten Dateneinheiten und einen eigenen Adressierungsmechanismus:
+
+| Schicht | Protokoll | Dateneinheit | Adressen |
+| ... | ... | ... | ... |
+| Internet | IP | Paket | IP-Adressen |
+| Tansport | TCP | Segment | Ports |
+| Links | Ethernet | Frame | MAC-Adressen|
+
+Die Daten der Anwedendungsschicht werden auf der Transportschicht in ein Segment verpackt. Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendlich in der Link-Schicht in ein Frame.
+
+
+
+
