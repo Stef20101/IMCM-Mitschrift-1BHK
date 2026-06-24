@@ -10,6 +10,8 @@ Andere bekannte Auszeichnungssprachen sind:
 
 ## Playlist zur Funktionsweise des Internets
 
+![TCP/IP](/assets/miro.medium.png)
+
 ### Teil 1 - What is the Internet?
 
 - wurde in den 1970er-Jahren erfunden
