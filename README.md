@@ -10,11 +10,6 @@ Andere bekannte Auszeichnungssprachen sind:
 
 ## Playlist zur Funktionsweise des Internets
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 7e27488d2c21f2417e4fc67b1dec2d8568b33c1d
 ### Teil 1 - What is the Internet?
 
 - wurde in den 1970er-Jahren erfunden
@@ -106,19 +101,6 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 
 In TCP/IP-Modell übernimmt jede Schicht eine eigene Aufgabe (merke: *"divide and conquer"*), hat einen eigenen Namen für die versendeten Dateneinheiten und einen eigenen Adressierungsmechanismus:
 
-<<<<<<< HEAD
-| Schicht | Protokoll | Dateneinheit | Adressen |
-| ... | ... | ... | ... |
-| Internet | IP | Paket | IP-Adressen |
-| Tansport | TCP | Segment | Ports |
-| Links | Ethernet | Frame | MAC-Adressen|
-
-Die Daten der Anwedendungsschicht werden auf der Transportschicht in ein Segment verpackt. Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendlich in der Link-Schicht in ein Frame.
-
-
-stefanija
-
-=======
 | Schicht   | Protokoll     | Dateneinheit |    Adressen |
 | ...       | ...           | ...          | ...         |
 | Internet  | IP            | Paket        | IP-Adressen |
@@ -126,4 +108,4 @@ stefanija
 | Links     | Ethernet      | Frame        | MAC-Adressen|
 
 Die Daten der Anwedendungsschicht werden auf der Transportschicht in ein Segment verpackt. Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendlich in der Link-Schicht in ein Frame.
->>>>>>> 7e27488d2c21f2417e4fc67b1dec2d8568b33c1d
+
