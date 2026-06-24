@@ -111,7 +111,7 @@ In TCP/IP-Modell übernimmt jede Schicht eine eigene Aufgabe (merke: *"divide an
 
 Die Daten der Anwedendungsschicht werden auf der Transportschicht in ein Segment verpackt. Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendlich in der Link-Schicht in ein Frame.
 
-![Datenkapselung im TCP/IP-Modell](/assets/segment-packet-frame.jpg)
+![Datenkapselung im TCP/IP-Modell](/assets/Datenkapselung%20im%20TCP.IP-Modell.jpg)
 
 ## Webtechnologien: HTML, CSS und JS
 
@@ -126,3 +126,5 @@ Die zentralen Bausteine von HTML sind sogenannte **Tags**. Tags können mit Hilf
 ![HTML-Syntax](/assets/HTML-Syntax)
 
 Ein HTML-Dokument ist hierarchisch aufgebaut. Wir sprechen in diesem Zusammenhang auch vom **DOM-Tree** (*Document Object Model*). Jedes HTML-Dokument ist aufgebaut wie ein Baum. Die Wurzeln des Baumes ist der `<html>`-Tag. Auf der nächsten Ebene befinden sich die beiden Tags `<head>` und `<body>`. Im `<head>` finden sich in erster Linie, Metadaten, die Informationen über die Webpage enthalten, z.B. der Titel der Seite, die Sprache, die Zeichnungskodierung usw. Im `<body>` finden sich die eigentlichen Inhalte der Webpage, z.B. Texte, Bilder, Videos, Links usw.
+
+![DOM-Tree](/assets/DOM-Tree)
