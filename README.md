@@ -110,5 +110,5 @@ In TCP/IP-Modell übernimmt jede Schicht eine eigene Aufgabe (merke: *"divide an
 Die Daten der Anwedendungsschicht werden auf der Transportschicht in ein Segment verpackt. Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendlich in der Link-Schicht in ein Frame.
 
 
-
+stefanija
 
