@@ -118,3 +118,7 @@ Die Daten der Anwedendungsschicht werden auf der Transportschicht in ein Segment
 ![HTML-CSS-JS](/assets/html-css-js.png)
 
 ### HTML - *Hypertext Markup Language*
+
+HTML gibt den Inhalten einer Website die Struktur vor. Die `index.html` ist üblicherweise der zentrale Einsteigungspunkt für jede Website - alle weiteren Inhalte (Bilderm Videos, CSS-Stylesheets, JS-Skripte, usw.) werden über diese verknüpft
+
+Die zentralen Bausteine von HTML sind sogenannte **Tags**. Tags können mit Hilfe von **Attributen** erweitert werden. Attribute sind Schlüssel-Wert-Paare (*key-value-pairs*). Der HTML-Quellcode einer Website wird vom Browser und von Suchmaschinen-Bots (*Crawler*) gelesen und interpretiert werden.
